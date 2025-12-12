@@ -80,7 +80,6 @@ fun LogIn() {
             Spacer(modifier = Modifier.height(12.dp))
 
             TextField(
-                // Tu código original
                 value = password,
                 onValueChange = { password = it },
                 label = { Text("Contraseña", color = Color.DarkGray) },
